@@ -1,5 +1,21 @@
 .search {
     width: 100%;
     height: 70px;
-    border: 1px solid #0f0;
+    display: flex;
+}
+
+.icon {
+    height: calc(100% -4px);
+    padding: 0 10px 0 20px;
+    cursor: pointer;
+}
+
+.input {
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border: none;
+}
+
+input:focus {
+    outline: 0;
 }

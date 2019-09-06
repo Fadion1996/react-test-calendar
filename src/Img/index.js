@@ -1,4 +1,5 @@
 import Avatar from './Avatar.png';
+import Arrow from './Arrow.svg';
 import Notification from './Notification.svg';
 import Search from './Search.svg';
 import Logo from './Logo.svg';
@@ -15,6 +16,7 @@ import Settings from './Settings.svg';
 
 export {
     Avatar,
+    Arrow,
     Search,
     Notification,
     Logo,

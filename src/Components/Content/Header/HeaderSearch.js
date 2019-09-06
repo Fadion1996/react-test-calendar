@@ -1,15 +1,15 @@
 import React from 'react';
-import icons from '../../../Img';
+import { Search } from '../../../Img';
 import css from './HeaderSearch.module.css';
 
 const HeaderSearch = () => {
     return (
         <div className={css.search}>
+            <img className={css.icon} src={Search} alt="Search" />
             <input
                 className={css.input}
                 placeholder="Search transactions, invoices or help"
             />
-            <img src={icons.Search} alt="Search" />
         </div>
     );
 };
