@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-test-calendar/static/css/main.3d70dcaf.chunk.css",
+    "main.css": "/react-test-calendar/static/css/main.98ac0997.chunk.css",
     "main.js": "/react-test-calendar/static/js/main.e6839b17.chunk.js",
     "main.js.map": "/react-test-calendar/static/js/main.e6839b17.chunk.js.map",
     "runtime~main.js": "/react-test-calendar/static/js/runtime~main.d872c602.js",
@@ -8,9 +8,9 @@
     "static/js/2.763bcf27.chunk.js": "/react-test-calendar/static/js/2.763bcf27.chunk.js",
     "static/js/2.763bcf27.chunk.js.map": "/react-test-calendar/static/js/2.763bcf27.chunk.js.map",
     "index.html": "/react-test-calendar/index.html",
-    "precache-manifest.61804ee680a2f97ccee1a9371addfc75.js": "/react-test-calendar/precache-manifest.61804ee680a2f97ccee1a9371addfc75.js",
+    "precache-manifest.2f2c8688b274fe805f5ae312cf734020.js": "/react-test-calendar/precache-manifest.2f2c8688b274fe805f5ae312cf734020.js",
     "service-worker.js": "/react-test-calendar/service-worker.js",
-    "static/css/main.3d70dcaf.chunk.css.map": "/react-test-calendar/static/css/main.3d70dcaf.chunk.css.map",
+    "static/css/main.98ac0997.chunk.css.map": "/react-test-calendar/static/css/main.98ac0997.chunk.css.map",
     "static/media/Add.svg": "/react-test-calendar/static/media/Add.ee21fc4a.svg",
     "static/media/Arrow.svg": "/react-test-calendar/static/media/Arrow.e1ad04b9.svg",
     "static/media/Avatar.png": "/react-test-calendar/static/media/Avatar.84b85e8d.png",
