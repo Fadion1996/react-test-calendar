@@ -1,0 +1,14 @@
+.tile {
+    display: flex;
+    flex: 1 0 14%;
+    height: 102px;
+    border: 1px solid #eaf0f4;
+    cursor: pointer;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    right: 0;
+    margin: 16px;
+}

@@ -1,0 +1,16 @@
+.date_menu {
+    display: flex;
+    width: 262px;
+    margin: 20px;
+}
+
+.title {
+    font-size: 23px;
+    padding: 20px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
