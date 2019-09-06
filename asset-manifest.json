@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-test-calendar/static/css/main.3d70dcaf.chunk.css",
+    "main.js": "/react-test-calendar/static/js/main.e6839b17.chunk.js",
+    "main.js.map": "/react-test-calendar/static/js/main.e6839b17.chunk.js.map",
+    "runtime~main.js": "/react-test-calendar/static/js/runtime~main.d872c602.js",
+    "runtime~main.js.map": "/react-test-calendar/static/js/runtime~main.d872c602.js.map",
+    "static/js/2.763bcf27.chunk.js": "/react-test-calendar/static/js/2.763bcf27.chunk.js",
+    "static/js/2.763bcf27.chunk.js.map": "/react-test-calendar/static/js/2.763bcf27.chunk.js.map",
+    "index.html": "/react-test-calendar/index.html",
+    "precache-manifest.61804ee680a2f97ccee1a9371addfc75.js": "/react-test-calendar/precache-manifest.61804ee680a2f97ccee1a9371addfc75.js",
+    "service-worker.js": "/react-test-calendar/service-worker.js",
+    "static/css/main.3d70dcaf.chunk.css.map": "/react-test-calendar/static/css/main.3d70dcaf.chunk.css.map",
+    "static/media/Add.svg": "/react-test-calendar/static/media/Add.ee21fc4a.svg",
+    "static/media/Arrow.svg": "/react-test-calendar/static/media/Arrow.e1ad04b9.svg",
+    "static/media/Avatar.png": "/react-test-calendar/static/media/Avatar.84b85e8d.png",
+    "static/media/Calendar.svg": "/react-test-calendar/static/media/Calendar.d5d38511.svg",
+    "static/media/Chat.svg": "/react-test-calendar/static/media/Chat.8f20ac86.svg",
+    "static/media/Close.svg": "/react-test-calendar/static/media/Close.1ab99b28.svg",
+    "static/media/Customers.svg": "/react-test-calendar/static/media/Customers.81976d72.svg",
+    "static/media/Dashboard.svg": "/react-test-calendar/static/media/Dashboard.2f16bca1.svg",
+    "static/media/Help.svg": "/react-test-calendar/static/media/Help.9d698f62.svg",
+    "static/media/Home.svg": "/react-test-calendar/static/media/Home.9e083b2e.svg",
+    "static/media/Inbox.svg": "/react-test-calendar/static/media/Inbox.1255e31e.svg",
+    "static/media/Invoices.svg": "/react-test-calendar/static/media/Invoices.353a2ee3.svg",
+    "static/media/Logo.svg": "/react-test-calendar/static/media/Logo.00f12fd9.svg",
+    "static/media/Notification.svg": "/react-test-calendar/static/media/Notification.870eb32f.svg",
+    "static/media/Products.svg": "/react-test-calendar/static/media/Products.91da6053.svg",
+    "static/media/Search.svg": "/react-test-calendar/static/media/Search.9b15ce11.svg",
+    "static/media/Settings.svg": "/react-test-calendar/static/media/Settings.732d77b8.svg",
+    "static/media/Timer.svg": "/react-test-calendar/static/media/Timer.60d93652.svg"
+  }
+}
