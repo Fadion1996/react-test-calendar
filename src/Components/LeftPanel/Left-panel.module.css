@@ -1,0 +1,19 @@
+.left_panel {
+    width: 260px;
+    height: calc(100% - 2px);
+    border: 1px solid #f0f;
+    background: #43425d;
+}
+
+.header {
+    height: 70px;
+    width: 260px;
+    background: #3c3b53;
+    text-align: left;
+}
+
+.logo {
+    width: 100px;
+    height: 19px;
+    margin: 26px 20px;
+}
