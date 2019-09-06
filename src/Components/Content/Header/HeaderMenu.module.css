@@ -1,0 +1,16 @@
+.menu {
+    height: 70px;
+    display: flex;
+}
+
+.menuItem {
+    height: calc(100% -4px);
+    padding: 0 15px;
+    margin: 14px 0;
+    cursor: pointer;
+}
+
+.menuItem:last-child {
+    border-right: 1px solid #bcbccb;
+    padding-right: 20px;
+}

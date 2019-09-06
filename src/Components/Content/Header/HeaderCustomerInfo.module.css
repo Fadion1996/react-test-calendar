@@ -1,0 +1,24 @@
+.info {
+    height: 70px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name {
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 10px;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.user {
+    margin-right: 20px;
+    cursor: pointer;
+    height: 38px;
+    width: 38px;
+}
