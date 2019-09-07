@@ -31,7 +31,7 @@ const Table = ({ month, year, date }) => {
                         number={number}
                     />,
                 );
-                if (firstDay >= 5 && i === 34) {
+                if (firstDay >= 4 && i === 34) {
                     return arrayOfTile;
                 }
                 number += 1;
