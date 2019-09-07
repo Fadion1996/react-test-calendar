@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-test-calendar/static/css/main.a9a7ba5a.chunk.css",
-    "main.js": "/react-test-calendar/static/js/main.7b48265d.chunk.js",
-    "main.js.map": "/react-test-calendar/static/js/main.7b48265d.chunk.js.map",
+    "main.js": "/react-test-calendar/static/js/main.4f74c836.chunk.js",
+    "main.js.map": "/react-test-calendar/static/js/main.4f74c836.chunk.js.map",
     "runtime~main.js": "/react-test-calendar/static/js/runtime~main.d872c602.js",
     "runtime~main.js.map": "/react-test-calendar/static/js/runtime~main.d872c602.js.map",
     "static/js/2.763bcf27.chunk.js": "/react-test-calendar/static/js/2.763bcf27.chunk.js",
     "static/js/2.763bcf27.chunk.js.map": "/react-test-calendar/static/js/2.763bcf27.chunk.js.map",
     "index.html": "/react-test-calendar/index.html",
-    "precache-manifest.303712b4adbe2eb1c1a17706277ae7ba.js": "/react-test-calendar/precache-manifest.303712b4adbe2eb1c1a17706277ae7ba.js",
+    "precache-manifest.e5f08774c50366dd3ea578e63e7ae9f9.js": "/react-test-calendar/precache-manifest.e5f08774c50366dd3ea578e63e7ae9f9.js",
     "service-worker.js": "/react-test-calendar/service-worker.js",
     "static/css/main.a9a7ba5a.chunk.css.map": "/react-test-calendar/static/css/main.a9a7ba5a.chunk.css.map",
     "static/media/Add.svg": "/react-test-calendar/static/media/Add.ee21fc4a.svg",
