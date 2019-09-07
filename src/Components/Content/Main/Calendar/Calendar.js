@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import css from './Calendar.module.css';
 import CalendarDateMenu from './DateMenu/CalendarDateMenu';
 import Navigation from './Navigation/Navigation';
@@ -9,13 +9,8 @@ import monthNames from './months';
 const date = new Date();
 
 const Calendar = () => {
-    const [month, setMonth] = useState(date.getMonth());
+    const [month, setMonth] = useState(date.getMonth() + 1);
     const [year, setYear] = useState(date.getFullYear());
-
-    useEffect(() => {
-        // setMonth();
-        // setYear();
-    }, []);
 
     return (
         <div className={css.calendar}>
@@ -28,9 +23,9 @@ const Calendar = () => {
                     setYear={setYear}
                     date={date}
                 />
-                <p
-                    className={css.title_name}
-                >{`${monthNames[month]} ${year}`}</p>
+                <p className={css.title_name}>{`${
+                    monthNames[month - 1]
+                } ${year}`}</p>
             </div>
             <div className={css.calendar_table}>
                 <TopBar />

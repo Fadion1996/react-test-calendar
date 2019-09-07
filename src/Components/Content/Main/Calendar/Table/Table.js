@@ -1,33 +1,54 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import css from './Table.module.css';
 import Tile from '../Tile/Tile';
 import tableTiles from './tableTiles';
 
-let number = 0;
+let number = 1;
+let prev = 0;
+let arrayOfTile = [];
 
 const Table = ({ month, year, date }) => {
-    const daysInMonth = () => 32 - new Date(year, month, 32).getDate();
-    const firstDay = new Date(year, month).getDay();
+    const daysInMonth = () => new Date(year, month, 0).getDate();
+    const firstDay = new Date(year, month - 1).getDay();
+
+    useEffect(() => {
+        arrayOfTile = [];
+        number = 1;
+        prev = daysInMonth();
+    }, [month]);
+
+    useEffect(() => {
+        prev = daysInMonth();
+    }, []);
 
     const createTile = (day, i) => {
         if (daysInMonth() >= number) {
-            if (firstDay < i && daysInMonth() < number) {
-                number = 1;
-                return (
+            if (firstDay <= i && daysInMonth() >= number) {
+                arrayOfTile.push(
                     <Tile
                         key={day.id}
                         daysInMonth={daysInMonth}
                         number={number}
-                    />
+                    />,
                 );
+                if (firstDay >= 5 && i === 34) {
+                    return arrayOfTile;
+                }
+                number += 1;
+                return null;
             }
-            number += 1;
-            return (
-                <Tile key={day.id} daysInMonth={daysInMonth} number={number} />
+            arrayOfTile.unshift(
+                <Tile key={day.id} daysInMonth={daysInMonth} number={prev} />,
             );
+            prev -= 1;
+            return null;
         }
         number = 1;
-        return <Tile key={day.id} daysInMonth={daysInMonth} number={number} />;
+        arrayOfTile.push(
+            <Tile key={day.id} daysInMonth={daysInMonth} number={number} />,
+        );
+        number += 1;
+        return arrayOfTile;
     };
 
     return (

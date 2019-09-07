@@ -10,7 +10,7 @@ const Navigation = ({ month, year, setMonth, setYear, date }) => {
         setActive(button);
         switch (button) {
             case 1:
-                setMonth(date.getMonth());
+                setMonth(date.getMonth() + 1);
                 setYear(date.getFullYear());
                 break;
             case 2:
@@ -30,7 +30,7 @@ const Navigation = ({ month, year, setMonth, setYear, date }) => {
                 }
                 break;
             default:
-                setMonth(date.getMonth());
+                setMonth(date.getMonth() + 1);
                 setYear(date.getFullYear());
         }
     };
